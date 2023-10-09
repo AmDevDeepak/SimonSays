@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 2.5rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    /*background-color: rgb(34, 8, 21);*/
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
