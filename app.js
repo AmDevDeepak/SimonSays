@@ -14,7 +14,7 @@ let p = document.querySelector('p');
 
 
 let userName = prompt("Enter your name");
-h1.innerText = `Hey, ${userName} Welcome Simon Says Game`;
+h1.innerText = `Hey, ${userName} Welcome To Simon Says Game`;
 
 /* Step 1 */
 document.addEventListener('keypress', function(){
@@ -24,6 +24,15 @@ document.addEventListener('keypress', function(){
         levelUp();
     } 
 });
+
+document.addEventListener('touchstart', function(){
+    if(isStarted == false){
+        console.log("Game Started!");
+        isStarted = true;
+        levelUp();
+    } 
+});
+
 
 function gameFlash(btn){
     btn.classList.add('gameflash');
